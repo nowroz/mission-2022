@@ -36,3 +36,16 @@
   font-style: normal;
 }
 /* font-family classes end */
+
+
+/* css reset begin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+/* css reset end */
