@@ -49,3 +49,22 @@ img {
     display: block;
 }
 /* css reset end */
+
+/* shared styles begins */
+/* shared text colors */
+.text-color-primary {
+    color: #333333;
+}
+
+.text-color-secondary {
+    color: #3E3E3E;
+}
+
+.text-color-tertiary {
+    color: #424242;
+}
+
+.text-color-highlight {
+    color: #FFAD5A;
+}
+/* shared styles ends */
