@@ -184,9 +184,13 @@ main>section {
 /* RESPONSIVE LAYOUT START */
 /* small devices */
 @media screen and (max-width: 576px) {
-  #hero {
+  #hero,
+  #my-mission-card-container {
     flex-direction: column;
     padding: 1rem;
+  }
+
+  #hero {
     text-align: center;
   }
 
