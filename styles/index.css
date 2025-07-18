@@ -68,3 +68,12 @@ img {
     color: #FFAD5A;
 }
 /* shared styles ends */
+
+/* section styles begins */
+/* set max-width for all sections under main */
+/* also horizontally center them */
+main > section {
+    max-width: 1128px;
+    margin: 0 auto;
+}
+/* section styles ends */
