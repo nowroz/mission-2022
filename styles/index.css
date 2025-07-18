@@ -1,7 +1,7 @@
 /* import 'Yeseva One', 'Roboto', 'Poppins', 'Lobster', and 'Manrope' font-families */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
 
-/* font-family classes begin */
+/* FONT-FAMILY CLASSES BEGIN */
 /* Yeseva One */
 .yeseva-one-ff {
   font-family: "Yeseva One", serif;
@@ -35,45 +35,105 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-/* font-family classes end */
+
+/* FONT-FAMILY CLASSES END */
 
 
-/* css reset begin */
+/* CSS RESET BEGIN */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 img {
-    display: block;
+  display: block;
 }
-/* css reset end */
 
-/* shared styles begins */
+/* CSS RESET END */
+
+
+/* SHARED STYLES BEGIN */
 /* shared text colors */
 .text-color-primary {
-    color: #333333;
+  color: #333333;
 }
 
 .text-color-secondary {
-    color: #3E3E3E;
+  color: #3E3E3E;
 }
 
 .text-color-tertiary {
-    color: #424242;
+  color: #424242;
+}
+
+.text-color-quaternary {
+  color: #434343;
 }
 
 .text-color-highlight {
-    color: #FFAD5A;
+  color: #FFAD5A;
 }
-/* shared styles ends */
 
-/* section styles begins */
+/* shared font-sizes */
+.section-description {
+  font-size: 1.125rem;
+}
+
+/* shared buttons */
+.btn-primary {
+  font-weight: 500;
+  color: white;
+  background-color: #FF5959;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem 2.375rem;
+}
+
+/* SHARED STYLES END */
+
+
+/* UTILITY CLASSES BEGIN */
 /* set max-width for all sections under main */
 /* also horizontally center them */
-main > section {
-    max-width: 1128px;
-    margin: 0 auto;
+main>section {
+  max-width: 1128px;
+  margin: 0 auto;
 }
-/* section styles ends */
+
+/* UTILITY CLASSES END */
+
+
+/* HERO SECTION BEGINS */
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero-img-container {
+  width: 50%;
+}
+
+#hero-title {
+  font-size: 3.5rem;
+  line-height: 5rem;
+  margin-bottom: 0.94rem;
+}
+
+#hero-description {
+  max-width: 29.44rem;
+  line-height: 1.75rem;
+  margin-bottom: 1.19rem;
+}
+
+#hero-btn {
+  margin-bottom: 2.06rem;
+}
+
+#featured-developer-img {
+  width: 100%; 
+  height: auto;
+}
+
+/* HERO SECTION ENDS */
